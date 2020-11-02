@@ -29,7 +29,7 @@ version_libreoffice=$(get_current_app_version)
 echo $version
 ```
 
-- - Getting a list of applications with their versions on display.
+- Getting a list of applications with their versions on display.
 (Сведения о приложениях берутся из файлов ./apps/<name_app>.sh.
 
 ```sh build_list_apps.sh ```
@@ -37,9 +37,13 @@ echo $version
 Output example:
 
 Libre Office 7.0.3
+
 MongoDB 4.4.1
+
 PostgreSQL 13
+
 MySQL Workbench 8.0.22
+
 
 - Getting a list of applications with their versions in text format (./list_apps.txt).
 (Сведения о приложениях берутся из файлов ./apps/<name_app>.sh.
@@ -49,9 +53,13 @@ MySQL Workbench 8.0.22
 Output example:
 
 Libre Office 7.0.3
+
 MongoDB 4.4.1
+
 PostgreSQL 13
+
 MySQL Workbench 8.0.22
+
 
 - Getting a list of applications with their versions in markdown format (./list_apps.md).
 (Сведения о приложениях берутся из файлов ./apps/<name_app>.sh.
